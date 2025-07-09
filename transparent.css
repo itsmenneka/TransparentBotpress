@@ -1,20 +1,41 @@
-.bp-chat,
-.bp-chat__main,
-.bp-chat__footer,
-.bp-chat__header {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-.bp-theme--dark {
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
 :root {
   --bp-background-primary: transparent !important;
   --bp-background-secondary: transparent !important;
   --bp-background-tertiary: transparent !important;
   --bp-background-contrast: transparent !important;
+  --bp-background-focus: transparent !important;
+  --bp-shadow-1: none !important;
+  --bp-shadow-2: none !important;
+  --bp-shadow-3: none !important;
+}
+
+/* Main chat container */
+.bp-chat {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Header and footer */
+.bp-chat__header,
+.bp-chat__footer {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Message containers */
+.bp-message {
+  background: transparent !important;
+}
+
+/* Text input area */
+.bp-input {
+  background: rgba(255,255,255,0.1) !important; /* slight translucent */
+  border: none !important;
+}
+
+/* Scrollbars (optional) */
+.bp-scrollbar {
+  background: transparent !important;
 }
