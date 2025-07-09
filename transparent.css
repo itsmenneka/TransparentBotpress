@@ -1,0 +1,20 @@
+.bp-chat,
+.bp-chat__main,
+.bp-chat__footer,
+.bp-chat__header {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.bp-theme--dark {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+:root {
+  --bp-background-primary: transparent !important;
+  --bp-background-secondary: transparent !important;
+  --bp-background-tertiary: transparent !important;
+  --bp-background-contrast: transparent !important;
+}
